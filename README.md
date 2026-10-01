@@ -1,4 +1,4 @@
-# 🧬 ProteinViewer 3D
+# ProteinViewer 3D
 
 A **pure Java** desktop application for interactive 3D protein structure visualization,
 built entirely with Java Swing. No external runtime dependencies — every line, from the
@@ -6,7 +6,7 @@ JSON parser to the 3D renderer, is written in Java.
 
 ---
 
-## ✨ Features
+##  Features
 
 ### 3D Structure Viewer
 | Feature | Details |
@@ -47,7 +47,7 @@ JSON parser to the 3D renderer, is written in Java.
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Requirements
 - **Java 17 or higher** (Java 21 recommended)
@@ -84,7 +84,7 @@ java --enable-preview -jar ProteinViewer.jar
 
 ---
 
-## 🧪 Example UniProt IDs
+##  Example UniProt IDs
 
 | UniProt ID | Protein | Notes |
 |------------|---------|-------|
@@ -99,7 +99,7 @@ java --enable-preview -jar ProteinViewer.jar
 
 ---
 
-## 🗂 Project Structure
+##  Project Structure
 
 ```
 ProteinViewer/
@@ -133,7 +133,7 @@ ProteinViewer/
 
 ---
 
-## 🔬 Architecture Notes
+##  Architecture Notes
 
 ### 3D Renderer (Software Rendering — pure Java2D)
 The renderer (`ProteinRenderer.java`) uses a classic pipeline:
@@ -166,7 +166,7 @@ User types UniProt ID
 
 ---
 
-## ⚙️ Keyboard Shortcuts
+##  Keyboard Shortcuts
 
 | Key | Action |
 |-----|--------|
@@ -182,7 +182,7 @@ User types UniProt ID
 
 ---
 
-## 📋 API Used (free, no key required)
+##  API Used (free, no key required)
 
 | API | Endpoint |
 |-----|----------|
@@ -191,7 +191,7 @@ User types UniProt ID
 
 ---
 
-## 📦 Importing as a Library
+## Importing as a Library
 
 The project is structured so the core packages can be used independently:
 
